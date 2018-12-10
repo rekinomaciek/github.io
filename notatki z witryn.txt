@@ -1,0 +1,4 @@
+Znaczniki CSS
+-tag (<p>)
+-klasa (class)
+-identyfikator (ID)

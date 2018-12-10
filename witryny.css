@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction:column;
+    height:100%;
+}
+
+header {
+    background-color: #0286ff;
+    padding: 1%;
+    height: 40px;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 3%;
+    text-align: inherit;
+
+}
+
+srodek {
+    float: left;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: justify;
+    height: 100%;
+    margin-top: 10px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #0286ff;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    float: baseline;
+    width: 100%;
+/*    position: fixed;*/
+    bottom: 0px;
+    margin-top: auto;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+
+
+#paralaksa { 
+    /* The image used */
+    background-image: url("slider1.jpeg");
+
+ background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+}
+
+#tabela {
+    margin-left: 70%;
+       width: 90%;
+    
+}
+#tabela >ul >li {
+    display:inline-block;
+}
+
+.film {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display:block;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+}
+
+#tabelka {
+    list-style-type: none;
+    display: inline-block;
+ 
+}
